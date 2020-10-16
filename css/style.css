@@ -1,48 +1,4 @@
-@font-face {
-    font-family: 'Jost-400';
-    src: 
-        url('../fonts/Jost-400-Book.otf') format('otf'),
-        url('../fonts/Jost-400-Book.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'Jost-200';
-    src: 
-        url('../fonts/Jost-200-Thin.otf') format('otf'),
-        url('../fonts/Jost-200-Thin.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'Jost-600';
-    src: 
-        url('../fonts/Jost-600-Semi.otf') format('otf'),
-        url('../fonts/Jost-600-Semi.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'Jost-500';
-    src: 
-        url('../fonts/Jost-500-Medium.otf') format('otf'),
-        url('../fonts/Jost-500-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'Jost-300';
-    src: 
-        url('../fonts/Jost-300-Light.otf') format('otf'),
-        url('../fonts/Jost-300-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&display=swap');
 body{
     font-family: 'Jost-400';
 }

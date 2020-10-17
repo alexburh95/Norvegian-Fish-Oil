@@ -3,12 +3,18 @@ body {
     font-family: 'Jost';
     font-weight: 400;
 }
-
+header .button.hidden_button{
+    display:none;
+}
+.footer_logo{
+    display:none;
+}
 .big_fon {
     background-image: url('../img/fon.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 30px;
+    background-position:  center;
 }
 .relative {
     position: relative;
@@ -17,6 +23,9 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+}
+.img_prizi{
+    display: none;
 }
 .row {
     align-items: center;
@@ -35,6 +44,9 @@ body {
 .menu a {
     text-decoration: none;
     color: white;
+}
+.shutterstock_mini{
+    display: none;
 }
 .menu li {
     font-style: normal;
@@ -92,7 +104,9 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #ffffff;
-    padding-bottom: 44px;
+}
+header .col-lg-7 .button{
+    width: 200px;
 }
 .konkurs_title {
     font-style: normal;
@@ -269,6 +283,9 @@ body {
 
     left: -77px;
 }
+.corobki{
+    display:none;
+}
 .two::before {
     content: '2';
     font-style: normal;
@@ -371,6 +388,9 @@ body {
     top: -180px;
     right: -140px;
     width: 140%;
+}
+.bigbox_hidden{
+    display: none;
 }
 .project_h2 {
     font-style: normal;
@@ -722,12 +742,670 @@ footer p {
     padding-bottom: 70px;
 }
 @media only screen and (max-width: 1500px) {
+    .bigbox {
+        right: -120px;
+    }
     .prizi.big_fon {
         background-size: contain;
     }
 }
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1360px) {
+    .big_fon {
+        background-size: contain;
+        background-position: inherit;
+    }
+    .bigbox {
+        right: -90px;
+        width: 120%;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .bigbox {
+        right: -60px;
+        width: 110%;
+    }
+}
+@media only screen and (max-width: 1260px) {
+    .bigbox {
+        right: -10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .menus {
+       
+        width: 470px;
+        height: 470px;
+    }
+    .header_h2 {
+        padding-top: 30px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .big_fon {
+     
+        background-size: cover;
+}
+
+.shutterstock{
+    width:100%;
+}
+.bigbox {
+    top: -100px;
+}
+.aboutProject {
+    margin-left:0;
+    width: 100%;
+}
+.prizi_h2
+{
+    padding-top:0;
+}
+.newses .col-lg-3 img[alt*='Новости']{
+    width:100%;
+}
+.news_h2 {
+    padding-top: 132px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+}
+}
+
+@media only screen and (max-width: 1100px) {
+.col-lg-7 .button {
+    width: 250px;
+    margin-top: 10px;
+}
+}
+.bonus_h2 {
+
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 992px) {
+
     .big_fon {
         background-size: contain;
     }
+    .header_h2 {
+    
+        font-size: 30px;
+    }
+
+.menus .menu a {
+    font-size: 9px;
+}
+.vitamin_h2 {
+
+    padding-top: 70px;
+
+    font-size: 20px;
+    line-height: 40px;
+
+    margin-bottom: 75px;
+}
+.vitamin_h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.vitamin_p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+.imp_women {
+  
+    font-size: 20px;
+
+    color: #00467f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.podarok_h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.podarok .button {
+width:200px;
+}
+.p_konkurs {
+ 
+    font-size: 15px;
+}
+.konkurs_socseti {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.konkurs {
+     padding-bottom: 10px; 
+
+}
+.prizi_p {
+
+    font-size: 15px;
+}
+.prizi_h2 {
+    padding-top: 0;
+    margin-bottom:10px;
+}
+.news_h2 {
+    padding-top: 10px;
+}
+}
+@media only screen and (max-width: 900px) {
+
+    .menu li:first-child {
+        margin-right: 10px;
+    }
+    .hashtag {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+   .menu {
+       display: none
+   }
+
+   .menus .menu{
+       display: flex
+   }
+   .logo{
+       width:50%;
+   }
+   .header_h2 {
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+.header_p {
+
+    font-size: 14px;
+}
+header .col-lg-7 .button{
+
+    width:150px;
+}
+.menus {
+    width: 350px;
+    height: 350px;
+}
+.menus .row {
+    padding-top: 50px;
+}
+.bottom_menu li {
+
+    font-size: 15px;
+    line-height: 20px;
+  
+    padding-bottom: 10px;
+  
+}
+.vitamin_h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+justify-content: center;}
+.one::before, .two::before {
+    left: 40px;
+}
+
+.vitamin_p {
+
+text-align: center;}
+.bonus_h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.bonus .col-lg-7 .button {
+
+    margin: 0 auto;
+}
+.bigbox{
+    width: 100%;
+    position: initial;
+    /* padding-top: 50px; */
+    margin-top: 50px;
+}
+.bonus{
+    padding-bottom: 0;
+}
+.bonus::before {
+
+    top: -4%;
+    left: 46%;
+}
+.project_h2 {
+
+justify-content: center;
+}
+.hashtag_bottom {
+    justify-content: center;
+}
+.project_p_bottom{
+    text-align: center;
+}
+.podarok_h2{
+    text-align: center;
+}
+.podarok .button {
+    margin: 0 auto;
+}
+.konkurs_title{
+    text-align: center;
+}
+.konkurs_description{
+    text-align: center;
+}
+.socseti {
+    justify-content: center;
+}
+.socseti_img {
+    margin-left: 0;
+}
+.konkurs .col-lg-2{
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+.prizi.big_fon{
+    background: linear-gradient(180deg, #649EE1 0%, #91C2EC 33.67%);
+}
+.prizi .img_prizi{
+    width: 100%;
+    display: flex;
+}
+.prizi .col-lg-7 .button {
+    margin: 0 auto;
+}
+.news_h2 {
+    text-align: center;
+}
+.interview {
+   
+    margin-bottom: 20px;
+}
+footer .logo{
+    width:25%;
+}
+footer p{
+    margin-left: 0;
+}
+.footer_div {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media only screen and (max-width: 576px) {
+    .big_fon {
+        background: linear-gradient(180deg, #649EE1 0%, #91C2EC 33.67%);
+    }
+    .logo {
+         padding-bottom: 0px; 
+    }
+    .header_h2{
+        font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 30px;
+/* or 107% */
+padding-top: 40px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    }
+    .menu_img {
+    
+        justify-content: flex-start;
+
+}
+.logo_top {
+    margin-bottom: 9px;
+    padding-right: 20%;
+}
+
+.logotip {
+
+    align-items: flex-end;
+
+}
+.header_p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 111% */
+    
+    
+    color: #FFFFFF;
+}
+header .img_prizi{
+    display:flex;
+    width: 100%;
+}
+header .center{
+    justify-content: flex-end;
+}
+.elle{
+    margin: 0;
+}
+header .button.hidden_button{
+    display: flex;
+    position: fixed;
+    top: 88%;
+    left: 33%;
+    z-index:99;
+}
+.button{
+    display:none;
+}
+.vitamin_h2{
+    font-size: 18px;
+line-height: 25px;
+/* or 139% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #00467F;
+
+}
+.shutterstock{
+    display:none;
+}
+.shutterstock_mini{
+    display: block;
+    width: 100%;
+}
+.vitamin_h3{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* or 111% */
+
+text-transform: uppercase;
+
+color: #00467F;
+}
+.vitamin_p {
+    padding-left: 26%;
+    text-align: left;
+}
+.bonus::before {
+
+    left: 0;
+    width: 30px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    top: -15px;
+}
+.bonus_h2{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+padding-bottom: 95px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.bigbox{
+    display:none;
+}
+.bigbox_hidden{
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    
+    top: 33%;
+    right: 0;
+}
+.bonus{
+    position: relative;
+}
+
+.obshii{
+    position: relative; 
+    overflow-x: hidden;
+}
+.project_h2 {
+justify-content:flex-start;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #00467F;
+    padding-bottom: 60px;
+}
+.project .col-md-8{
+    order: 1;
+}
+.hashtag{
+    text-transform: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #00467F;
+}
+.project_p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #00467F;
+    padding-left: 20%;
+}
+.imp_women {
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #00467F;
+}
+.hashtag_bottom {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #00467F;
+    text-transform: none;
+}
+.button.hidden_button{
+    height: 50px;
+}
+.project_p_bottom {
+    text-align: center;
+    text-align: left;
+    margin-left: 14%;
+}
+
+
+.bonus {
+    background: linear-gradient(-135deg, #649ee1 0%, #91c2ec 68%, #00467f 68%);
+}
+.podarok .col-md-7{
+    order: 1;
+}
+.project_h2 {
+ 
+    padding-top: 78px;
+}
+.konkurs .col-md-6{
+    order: 2;
+}
+.konkurs .usually .col-lg-6{
+    order: 1;
+}
+.rovno{
+    margin: 0 auto;
+}
+.prizi_h2 {
+    margin-bottom: 50px;
+}
+.news_h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #00467F;
+    text-align: left;
+}
+footer .logotip{
+    display:none;
+}
+footer .socseti{
+    justify-content: flex-start;
+}
+.footer_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+}
+}
+
+@media only screen and (max-width: 500px) {
+    .footer_logo {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+.bigbox_hidden {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 35%;
+    right: 0;
+}
+header .button.hidden_button {
+    display: flex;
+    position: fixed;
+    top: 88%;
+    left: 30%;
+}
+.one::before, .two::before {
+    left: 15px;
+}
+.bigbox_hidden {
+
+    top: 34%;
+}
+header .button.hidden_button {
+ 
+    left: 28%;
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+.bigbox_hidden {
+    top: 33%;
+}
+header .button.hidden_button {
+    left: 26%;
+}
+.one::before, .two::before {
+    left: 0px;
+}
+}
+@media only screen and (max-width: 400px) {
+    .news .container-fluid {
+        padding: 0 15px;
+    }
+header .button.hidden_button {
+    left: 24%;
+}
+.one::before, .two::before {
+width: 30px;
+height: 30px;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 30px;
+/* or 231% */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #00467F;
+
+}
+.vitamin_h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #00467F;
+    width: 60%;
+    padding-left: 15%;
+}
+.vitamin_p {
+    padding-left: 15%;
+}
+.bigbox_hidden {
+    top: 34%;
+}
+.socseti {
+    justify-content: flex-start;
+}
+}
+@media only screen and (max-width: 320px) {
+.bonus_h2 {
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+.bigbox_hidden {
+    top: 31%;
+}
+header .button.hidden_button {
+    left: 19%;
+}
+
 }

@@ -48,6 +48,10 @@ header .button.hidden_button{
 .shutterstock_mini{
     display: none;
 }
+.button:hover{
+    text-decoration: none;
+    color: white;
+}
 .menu li {
     font-style: normal;
     font-weight: 500;
@@ -1395,6 +1399,12 @@ color: #00467F;
 .socseti {
     justify-content: flex-start;
 }
+}
+@media only screen and (max-width: 375px) {
+
+    header .button.hidden_button {
+        left: 23%;
+    }
 }
 @media only screen and (max-width: 320px) {
 .bonus_h2 {
